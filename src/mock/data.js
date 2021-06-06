@@ -9,17 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, my name is',
+  name: 'Sebastian',
+  subtitle: "I'm a full stack software engineer.",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    'Dynamic and accomplished Full Stack Software Development Engineer with 2+ years’ experience and expertise in Business-driven applications, Data Analytics, Project Management, and Interpersonal Skills.',
+  paragraphTwo:
+    'Proven and demonstrated domain knowledge and technical acumen, effective collaboration skills, and software development expertise. Innate ability to build and sustain strong relationship to streamline operations.',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -29,11 +31,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'In-App messaging',
+    info:
+      ' Designed and implemented an in-app messaging service for buyers and sellers to communicate (Sending texts and images) in online marketplace',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'IAM: Identity and Access Management',
+    info:
+      'Designed and implemented an Identity and Access control management service with RBAC for an internal customer care portal',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,16 +55,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
