@@ -23,7 +23,8 @@ export const aboutData = {
   paragraphTwo:
     'Proven and demonstrated domain knowledge and technical acumen, effective collaboration skills, and software development expertise. Innate ability to build and sustain strong relationship to streamline operations.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://github.com/sebastianzsu/my-personal-blog/blob/main/src/context/Sebastian-resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -61,9 +62,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Email: sebzsu1299@gmail.com',
   btn: '',
-  email: '',
+  email: 'sebzsu1299@gmail.com',
 };
 
 // FOOTER DATA
@@ -71,13 +72,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/sebzsu1299',
     },
     {
       id: nanoid(),
@@ -87,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/sebastianzsu',
     },
   ],
 };
