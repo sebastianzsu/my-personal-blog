@@ -17,11 +17,10 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne:
-    'Dynamic and accomplished Full Stack Software Development Engineer with 2+ years’ experience and expertise in Business-driven applications, Data Analytics, Project Management, and Interpersonal Skills.',
-  paragraphTwo:
-    'Proven and demonstrated domain knowledge and technical acumen, effective collaboration skills, and software development expertise. Innate ability to build and sustain strong relationship to streamline operations.',
+    'Hi, I am a Full Stack Software Development Engineer with 3+ years of experience and expertise in Business-driven applications, Data Analytics, Ecommerce software, and growth engineering.',
+  paragraphTwo: '',
   paragraphThree: '',
   resume:
     'https://github.com/sebastianzsu/my-personal-blog/blob/main/src/context/Sebastian-resume.pdf', // if no resume, the button will not show up
@@ -31,30 +30,52 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'messaging.jpg',
     title: 'In-App messaging',
     info:
-      ' Designed and implemented an in-app messaging service for buyers and sellers to communicate (Sending texts and images) in online marketplace',
-    info2: '',
-    url: '',
+      'Designed and implemented an in-app messaging service for buyers and sellers to communicate (Sending texts and images) in online marketplace',
+    info2:
+      'Implemented APIs to store and retreive recent contacts, tagged conversations, and unread messages count',
+    info3: 'Developed notification system integrated with Twilio’s API to improve user engagements',
+    info4: 'Developed notification system integrated with Twilio’s API to improve user engagements',
+    url: 'Lead implementation of new feature that adds broadcast message service support',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'iam.jpg',
     title: 'IAM: Identity and Access Management',
     info:
       'Designed and implemented an Identity and Access control management service with RBAC for an internal customer care portal',
-    info2: '',
+    info2:
+      'Built RESTful API for (CRUD) users, roles, and permissions, and create/delete user-to-roles and role-to-permissions mapping',
+    info3:
+      'Implemented activity log for read/write operations for important resources using Spring AOP with multi-threading',
+    info4: 'Implemented schedule task and smtp email service for notification of change and alerts',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'flink.png',
+    title: 'Apache Flink Optimization',
+    info:
+      'Built a streaming data application to aggregate search data and visualize search event click-through rate for travel marketing channels such as top 50 travel destinations',
+    info2:
+      'Made substantial improvements in terms of query time, latency, throughput, and cached data in database',
+    info3: '',
+    info4: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'database.png',
+    title: 'Relational Database Management System',
+    info:
+      ' Built a streaming data application to aggregate search data and visualize search event click-through rate for travel marketing channels such as top 50 travel destinations',
+    info2:
+      'Made substantial improvements in terms of query time, latency, throughput, and cached data in database',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -78,7 +99,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sebzsu1299/',
     },
     {
       id: nanoid(),
